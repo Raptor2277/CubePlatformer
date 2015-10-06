@@ -110,3 +110,28 @@ E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfm
 E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\light.png
 E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\spotLight.png
 E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\tip.png
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe.config
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\obj\x64\Debug\Cube Platformer.exe
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\obj\x64\Debug\Cube Platformer.pdb
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\images\bg.jpg
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\light.png
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\spotLight.png
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\tip.png
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\images\player.png
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\images\surge.png
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\levels\level1.xml
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\levels\level2.xml
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\levels\menuLevel.xml
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\fonts\sweetness.ttf
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\music\never.ogg
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\music\never_short.ogg
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\shaders\light.frag
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\shaders\shadows.frag
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Cube Platformer.pdb
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\FarseerPhysics.dll
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfmlnet-audio-2.dll
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfmlnet-graphics-2.dll
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfmlnet-system-2.dll
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfmlnet-window-2.dll
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\obj\x64\Debug\Cube Platformer.csprojResolveAssemblyReference.cache
