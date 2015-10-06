@@ -1,0 +1,15 @@
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\Cube Platformer.exe.config
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\Content\images\surge.png
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\Content\fonts\sweetness.ttf
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\Cube Platformer.exe
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\Cube Platformer.pdb
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\sfmlnet-audio-2.dll
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\sfmlnet-system-2.dll
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\sfmlnet-window-2.dll
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\obj\Debug\Cube Platformer.exe
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\obj\Debug\Cube Platformer.pdb
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\Debug\Cube Platformer.exe.config
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\obj\Debug\Cube Platformer.exe
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\obj\Debug\Cube Platformer.pdb
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\obj\Debug\Cube Platformer.csprojResolveAssemblyReference.cache

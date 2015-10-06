@@ -1,0 +1,112 @@
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe.config
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.pdb
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-audio-2.dll
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-graphics-2.dll
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-system-2.dll
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-window-2.dll
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.exe
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.pdb
+c:\users\vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\fonts\sweetness.ttf
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.csprojResolveAssemblyReference.cache
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\surge.png
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level1.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level10.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level11.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level12.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level13.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level14.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level15.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level16.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level17.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level18.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level19.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level2.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level20.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level21.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level22.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level23.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level24.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level25.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level26.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level27.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level28.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level29.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level3.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level30.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level31.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level32.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level33.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level34.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level35.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level36.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level37.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level38.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level39.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level4.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level40.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level41.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level42.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level43.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level44.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level45.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level46.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level47.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level48.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level49.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level5.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level50.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level6.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level7.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level8.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level9.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\frag.txt
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\light.frag
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe.config
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.exe
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.pdb
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\surge.png
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\fonts\sweetness.ttf
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\light.frag
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.pdb
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.csprojResolveAssemblyReference.cache
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\music\never.ogg
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\music\never_short.ogg
+C:\Users\Vasile\documents\visual studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\shadows.frag
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe.config
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.exe
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.pdb
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\surge.png
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\frag.txt
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\fonts\sweetness.ttf
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\music\never.ogg
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\music\never_short.ogg
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\light.frag
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\shadows.frag
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.exe
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Cube Platformer.pdb
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-audio-2.dll
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-graphics-2.dll
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\obj\x64\Debug\Cube Platformer.csprojResolveAssemblyReference.cache
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level1.xml
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level2.xml
+C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\menuLevel.xml
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level1.xml
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\level2.xml
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\levels\menuLevel.xml
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\music\never.ogg
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\music\never_short.ogg
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\shaders\shadows.frag
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\FarseerPhysics.dll
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\player.png
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\bg.jpg
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-audio-2.dll
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-graphics-2.dll
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-system-2.dll
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\sfmlnet-window-2.dll
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\light.png
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\spotLight.png
+E:\Visual Studio 2013\Projects\Cube Platformer\Cube Platformer\bin\x64\Debug\Content\images\levelEditor\tip.png
