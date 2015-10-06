@@ -41,9 +41,6 @@ namespace Framework.Blocks
         private Input.InputAction left = new Input.InputAction(new List<Keyboard.Key>() {Keyboard.Key.A, Keyboard.Key.Left});
         private Input.InputAction right = new Input.InputAction(new List<Keyboard.Key>() {Keyboard.Key.D, Keyboard.Key.Right});
 
-        private float width;
-        private float height;
-
         public Player(ContentManager content, float x, float y, float width, float height)
         {
             this.ContentManager = content;
@@ -56,8 +53,8 @@ namespace Framework.Blocks
 
             this.staminaBox = new Rectangle(x, y - 20, width, 10);
             this.Stamina = 1;
-            this.width = width;
-            this.height = height;
+
+            this.PositionBox = new Rectangle(x, y, width, height);
 
             this.Shape = (PolygonShape)Body.FixtureList[0].Shape;
             this.Vertices = new List<Vector2>();
@@ -81,9 +78,9 @@ namespace Framework.Blocks
             else
                 Stamina += .3f * time.frameTime;
 
-            staminaBox.x = Body.Position.X * Ppm - width / 2;
-            staminaBox.y = Body.Position.Y * Ppm - height / 2 - 30;
-            staminaBox.width = width * Stamina;
+            staminaBox.x = Body.Position.X * Ppm - PositionBox.width / 2;
+            staminaBox.y = Body.Position.Y * Ppm - PositionBox.height / 2 - 30;
+            staminaBox.width = PositionBox.width * Stamina;
 
             if (right.evaluate() && Body.LinearVelocity.X < 1.7)
                 this.Body.ApplyForce(new Vector2(20 * Body.Mass, 0));

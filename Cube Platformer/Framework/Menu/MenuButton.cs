@@ -32,20 +32,7 @@ namespace Framework.Abstract
 
             this.IsActive = true;
             this.IsHighLighted = false;
-            this.BorderColor = Color.White;
-        }
-
-        public MenuButton(String displayedText)
-        {
-            this.TextBox = new Rectangle();
-
-            this.CharacterSize = MenuScreen.basicButtonSize;
-            this.Text = new Text(displayedText, MenuScreen.basicFont, CharacterSize);
-            this.Text.Position = new SFML.System.Vector2f(100, 100);
-
-            this.IsActive = true;
-            this.IsHighLighted = false;
-            this.BorderColor = Color.White;
+            this.BorderColor = color;
         }
 
         public void draw(RenderWindow window)

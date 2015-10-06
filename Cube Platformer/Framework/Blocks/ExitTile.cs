@@ -30,6 +30,7 @@ namespace Framework.Blocks
             Body.BodyType = BodyType.Dynamic;
             Body.OnCollision += Body_OnCollision;
 
+            this.PositionBox = new Rectangle(x, y, width, height);
             this.Shape = (PolygonShape)Body.FixtureList[0].Shape;
             this.Vertices = new List<Vector2>();
             this.updateVerts();

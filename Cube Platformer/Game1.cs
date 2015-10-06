@@ -24,7 +24,7 @@ namespace Cube_Platformer
 
         public static Font plainFont = new Font("Content/fonts/sweetness.ttf");
 
-        private bool fullScreen = false;
+        private bool fullScreen = true;
 
         public static Vector2i getMousePosition()
         {

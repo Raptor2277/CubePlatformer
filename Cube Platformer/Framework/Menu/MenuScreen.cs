@@ -24,45 +24,46 @@ namespace Framework.Abstract
 
     class MenuScreen : Screen, IHandleMouseButton
     {
-        public static Font basicFont = new Font("Content/fonts/sweetness.ttf");
-        public static uint basicTitleSize = 90;
-        public static uint basicButtonSize = 55;
-
         protected List<MenuButton> buttons;
         private MenuButton currentButton;
 
-        public string Title { get; set; }
-        public Color TitleColor { get; set; }
         public Color ButtonColor { get; set; }
+        public Color BackGroudColor { get; set; }
         public Font TitleFont { get; set; }
         public Font ButtonFont { get; set; }
         public uint TitleSize { get; set; }
         public uint ButtonSize { get; set; }
-        public Text TitleText { get; set; }
+        public Text Title { get; set; }
 
         public bool isBordered;
         public bool isCenteredX;
         public bool isCenteredY;
+        public bool hasBackground;
         public Rectangle bounds;
 
         public event EventHandler<ButtonClickEventArgs> MouseClick;
         public event EventHandler<ButtonMouseEventArgs> MouseEnter;
         public event EventHandler<ButtonMouseEventArgs> MouseLeave;
 
+        public MenuScreen(Screen parentScreen, ContentManager m, string title, Vector2i pos)
+            : this(parentScreen, m, title, pos, true, true, false, false, Color.White) { }
+
         public MenuScreen(Screen parentScreen, ContentManager m, string title, Vector2i pos, bool centeredX, bool centeredY, bool bordered)
+            : this(parentScreen, m, title, pos, centeredX, centeredY, bordered, false, Color.White) { }
+
+        public MenuScreen(Screen parentScreen, ContentManager m, string title, Vector2i pos, bool centeredX, bool centeredY, bool bordered, bool hasBackground, Color backgroundColor)
         {
             this.ParentScreen = parentScreen;
-            this.Title = title;
 
-            this.TitleColor = Color.Red;
             this.ButtonColor = Color.Black;
+            this.BackGroudColor = backgroundColor;
             this.TitleFont = m.Media.loadFont("Content/fonts/sweetness.ttf");
             this.ButtonFont = m.Media.loadFont("Content/fonts/sweetness.ttf");
-            this.TitleSize = basicTitleSize;
-            this.ButtonSize = basicButtonSize;
+            this.TitleSize = 90;
+            this.ButtonSize = 55;
             this.buttons = new List<MenuButton>();
 
-            this.TitleText = new Text(title, TitleFont, TitleSize);
+            this.Title = new Text(title, TitleFont, TitleSize);
             this.bounds = new Rectangle(pos.X, pos.Y, 0,0);
 
             this.isBordered = bordered;
@@ -71,6 +72,16 @@ namespace Framework.Abstract
             this.IsDrawn = true;
             this.IsUpdated = true;
 
+            this.hasBackground = hasBackground;
+            this.BackGroudColor = backgroundColor;
+
+            setButtons();
+        }
+
+        public void addButtons(string[] buttons)
+        {
+            foreach (string s in buttons)
+                this.buttons.Add(new MenuButton(s, ButtonFont, ButtonColor, ButtonSize));
             setButtons();
         }
 
@@ -85,7 +96,7 @@ namespace Framework.Abstract
         {
             if (isBordered)
                 Draw.drawRectangle(window, bounds, Color.Black);
-            window.Draw(TitleText);
+            window.Draw(Title);
             foreach (MenuButton b in buttons)
                 b.draw(window);
         }
@@ -139,20 +150,18 @@ namespace Framework.Abstract
 
         private void setButtons()
         {
-          //TitleSize > ButtonSize ? TitleSize / 2 : ButtonSize / 2;
-
             float offset = 0;
-            if (Title != null && TitleSize > ButtonSize)
+            if (!string.IsNullOrEmpty(Title.DisplayedString)  && TitleSize > ButtonSize)
                 offset = TitleSize / 2;
             else
                 offset = ButtonSize / 2;
 
             float maxLength = 0;
             float totalHeight = 0;
-            if(Title != null)
+            if (!string.IsNullOrEmpty(Title.DisplayedString))
             {
-                maxLength = TitleText.GetGlobalBounds().Width;
-                totalHeight += TitleText.GetLocalBounds().Height;
+                maxLength = Title.GetGlobalBounds().Width;
+                totalHeight += Title.GetLocalBounds().Height;
             }
                 
             foreach (MenuButton b in buttons)
@@ -173,8 +182,8 @@ namespace Framework.Abstract
 
             //setting the position of the title and buttons based on the possition of the menu
             float height = bounds.y;
-            setTitlePosition(new Vector2f(bounds.x + bounds.width / 2 - TitleText.GetGlobalBounds().Width / 2, this.bounds.y + offset));
-            height += 2 * offset + TitleText.GetGlobalBounds().Height;
+            setTitlePosition(new Vector2f(bounds.x + bounds.width / 2 - Title.GetGlobalBounds().Width / 2, this.bounds.y + offset));
+            height += 2 * offset + Title.GetGlobalBounds().Height;
 
             foreach (MenuButton b in buttons)
             {
@@ -185,18 +194,19 @@ namespace Framework.Abstract
 
         private void setTitlePosition(Vector2f pos)
         {
-            TitleText.Position = pos;
+            Title.Position = pos;
 
-            float buggedY = TitleText.GetLocalBounds().Top;
-            float buggedX = TitleText.GetLocalBounds().Left;
+            float buggedY = Title.GetLocalBounds().Top;
+            float buggedX = Title.GetLocalBounds().Left;
 
-            TitleText.Position = new Vector2f(pos.X - buggedX, pos.Y - buggedY);
+            Title.Position = new Vector2f(pos.X - buggedX, pos.Y - buggedY);
         }
 
         private void onButtonClick(int index)
         {
             if (MouseClick != null)
                 MouseClick(this, new ButtonClickEventArgs() {ButtonIndex = index});
+            Console.WriteLine(index);
         }
 
         public void handleMouseButton(SFML.Window.MouseButtonEventArgs e)

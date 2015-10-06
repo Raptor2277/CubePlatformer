@@ -163,7 +163,7 @@ namespace GameAssets.Screens
             this.ChildScreens = new List<Screen>();
 
             this.winScreen = new MenuScreen(this, this.contentManager, "Level Won", new Vector2i(0, 0), true, true, false);
-            winScreen.addButtons(new MenuButton[] { new MenuButton("Next Level"), new MenuButton("Restart"), new MenuButton("Quit") });
+            winScreen.addButtons(new string[] { "Next Level",  "Restart",  "Quit"});
             winScreen.IsDrawn = false;
             winScreen.IsUpdated = false;
             winScreen.MouseEnter += menuScreen_MouseEnter;
@@ -172,7 +172,7 @@ namespace GameAssets.Screens
             ChildScreens.Add(winScreen);
 
             this.pauseScreen = new MenuScreen(this, this.contentManager, "Game Paused", new Vector2i(0, 0), true, true, false);
-            pauseScreen.addButtons(new MenuButton[] { new MenuButton("Continue"), new MenuButton("Restart"), new MenuButton("Quit") });
+            pauseScreen.addButtons(new string[] {  "Continue",  "Restart",  "Quit" });
             pauseScreen.IsDrawn = false;
             pauseScreen.IsUpdated = false;
             pauseScreen.MouseEnter += menuScreen_MouseEnter;
@@ -184,7 +184,7 @@ namespace GameAssets.Screens
         private void menuScreen_MouseClick(object sender, ButtonClickEventArgs e)
         {
             MenuScreen m = ((MenuScreen)sender);
-            if (m.Title.Equals("Level Won"))
+            if (m.Title.DisplayedString.Equals("Level Won"))
             {
                 if (e.ButtonIndex == 0)
                 {
@@ -192,9 +192,10 @@ namespace GameAssets.Screens
                     currentLevel++;
                     IO.loadLevel(contentManager, "Content/levels/level" + currentLevel + ".xml");
                     this.IsUpdated = true;
+                    Console.WriteLine("this fuckig thing ran");
                 }
             }
-            else if (m.Title.Equals("Game Paused"))
+            else if (m.Title.DisplayedString.Equals("Game Paused"))
             {
                 if (e.ButtonIndex == 0)
                 {
@@ -202,6 +203,7 @@ namespace GameAssets.Screens
                     this.IsUpdated = true;
                 }
             }
+
             if (e.ButtonIndex == 1)
             {
                 foreach (Entity entity in contentManager.Entities)

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Framework.Abstract;
+﻿using Framework.Abstract;
 using SFML.System;
 using SFML.Graphics;
 using SFML.Audio;
@@ -56,12 +51,9 @@ namespace GameAssets.Screens
             lightLayer.setPolygons(contentManager.getLightPolygons());
 
             mainMenu = new MenuScreen(this, this.contentManager, null, new Vector2i(0, 0), true, true, false);
-            mainMenu.addButtons(new MenuButton[] { new MenuButton("Play"), 
-                                                    new MenuButton("Level Editor"),                                                    
-                                                    new MenuButton("Options"),
-                                                    new MenuButton("Help"),
-                                                    new MenuButton("Credits"),
-                                                    new MenuButton("Quit")});
+            mainMenu.Title.Color = Color.Black;
+            mainMenu.ButtonColor = Color.Black;
+            mainMenu.addButtons(new string[] { "Play",  "Level Editor", "Options",  "Help", "Credits", "Quit"});
             mainMenu.MouseClick += mainMenu_ButtonClick;
             mainMenu.MouseEnter += mainMenu_MouseEnter;
             mainMenu.MouseLeave += mainMenu_MouseLeave;

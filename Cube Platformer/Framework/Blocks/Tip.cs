@@ -19,8 +19,6 @@ namespace Framework.Blocks
     {
         public Color Color { get; private set; }
 
-        int col = 0;
-
         public Tip(ContentManager c, float x, float y, float width, float height)
         {
             this.ContentManager = c;
@@ -33,6 +31,7 @@ namespace Framework.Blocks
             Body.CollidesWith = Category.None;
             Body.OnCollision += Body_OnCollision;
 
+            this.PositionBox = new Rectangle(x, y, width, height);
             this.Shape = (PolygonShape)Body.FixtureList[0].Shape;
             this.Vertices = new List<Vector2>();
             this.updateVerts();

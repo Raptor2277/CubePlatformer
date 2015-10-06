@@ -1,9 +1,9 @@
 <Level>
   <Blocks>
-    <Entity id="1" />
-    <Entity id="1" />
-    <Entity id="0" />
-    <Entity id="1" />
-    <Entity id="2" />
+    <Entity id="1" x="6.103516E-05" y="640" w="1920" h="160" />
+    <Entity id="1" x="0" y="320" w="64" h="320" />
+    <Entity id="1" x="1856" y="320" w="64" h="320" />
+    <Entity id="0" x="192" y="574.5012" w="64" h="64" />
+    <Entity id="2" x="1696" y="542.5009" w="96" h="96" />
   </Blocks>
 </Level>

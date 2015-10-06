@@ -31,7 +31,7 @@ namespace Framework.Blocks
             this.Shape = (PolygonShape)Body.FixtureList[0].Shape;
             this.Vertices = new List<Vector2>();
             this.updateVerts();
-
+            this.PositionBox = new Rectangle(x, y, width, height);
             this.IsActive = true;
             this.IsDrawn = true;
             this.IsCollidable = true;

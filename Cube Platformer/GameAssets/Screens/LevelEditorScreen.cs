@@ -71,13 +71,7 @@ namespace GameAssets.Screens
         public void loadMenus()
         {
             this.pauseMenu = new MenuScreen(this, this.contentManager, "Settings", new Vector2i(0, 0), true, true, false);
-            pauseMenu.addButtons(new MenuButton[]{
-                new MenuButton("Continue"),
-                new MenuButton("New Level"),
-                new MenuButton("Load Level"),
-                new MenuButton("Save Level"),
-                new MenuButton("Exit"),
-            });
+            pauseMenu.addButtons(new string[] { "Continue", "New Level", "Load Level", "Save Level", "Exit" });
             pauseMenu.IsDrawn = false;
             pauseMenu.IsUpdated = false;
             pauseMenu.MouseClick += menu_MouseClick;
@@ -113,7 +107,7 @@ namespace GameAssets.Screens
                     break;
                 case 2:
                     ofd.Filter = "XML|*.xml|All files|*.*";
-                    ofd.InitialDirectory = @"C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\Content\levels";
+                    ofd.InitialDirectory = @"E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\Content\levels";
                     Game1.Window.SetVisible(false);
                     if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                     {
@@ -126,7 +120,7 @@ namespace GameAssets.Screens
                     break;
                 case 3:
                     sfd.Filter = "XML|*.xml|All files|*.*";
-                    sfd.InitialDirectory = @"C:\Users\Vasile\Desktop\c#\Cube Platformer\Cube Platformer\Content\levels";
+                    sfd.InitialDirectory = @"E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\Content\levels";
                     Game1.Window.SetVisible(false);
                     if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                     {
