@@ -43,7 +43,7 @@ namespace Cube_Platformer
             {
                 styles = Styles.Close;
             }
-            context.AntialiasingLevel = 4;
+            //context.AntialiasingLevel = 4;
             title = "Platformer";
             mode = new VideoMode(Game1.screenResolution.X, Game1.screenResolution.Y);
             base.createWindow(mode, title, styles, context);

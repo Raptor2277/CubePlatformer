@@ -12,7 +12,7 @@ void main()
 
 	vec2 lightPos2 = vec2(lightPos.x, screenHeight - lightPos.y);
 
-	float L = length(lightPos2 - gl_FragCoord) / 2202;
+	float L = length(lightPos2 - gl_FragCoord.xy) / 2202;
 
 	float attenuation = 1.0 / (C.x + C.y * L + C.z * L * L);
 

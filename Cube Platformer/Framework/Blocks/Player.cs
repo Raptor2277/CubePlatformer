@@ -19,12 +19,29 @@ using Cube_Platformer;
 
 namespace Framework.Blocks
 {
+    /// <summary>
+    /// This entity is controlled by the player
+    /// </summary>
     class Player : Actor , IHandleKeyPress, IBlocksLight
     {
+        /// <summary>
+        /// Player texture
+        /// </summary>
         public Texture Texture { get; private set; }
+
+        /// <summary>
+        /// Player color, if no texture available
+        /// </summary>
         public Color Color { get; private set; }
 
+        /// <summary>
+        /// Representation of the stamina - used for drawing
+        /// </summary>
         private Rectangle staminaBox;
+
+        /// <summary>
+        /// 0-1 value of the stamina
+        /// </summary>
         private float stamina;
         public float Stamina
         {
@@ -37,6 +54,7 @@ namespace Framework.Blocks
             }
         }
 
+        //Action inputs
         private Input.InputAction jump = new Input.InputAction(new List<Keyboard.Key>() {Keyboard.Key.W, Keyboard.Key.Space, Keyboard.Key.Up});
         private Input.InputAction left = new Input.InputAction(new List<Keyboard.Key>() {Keyboard.Key.A, Keyboard.Key.Left});
         private Input.InputAction right = new Input.InputAction(new List<Keyboard.Key>() {Keyboard.Key.D, Keyboard.Key.Right});
@@ -95,6 +113,9 @@ namespace Framework.Blocks
             Draw.fillRectangle(window, staminaBox, Color.Yellow);
         }
 
+        /// <summary>
+        /// Places the player at the starting positon and state
+        /// </summary>
         public void respawn()
         {
             this.Body.LinearVelocity = new Vector2(0, 0);
@@ -113,6 +134,10 @@ namespace Framework.Blocks
             }
         }
 
+        /// <summary>
+        /// Returns verticies to calculate shadows
+        /// </summary>
+        /// <returns></returns>
         public Polygon getLightPolygon()
         {
             return new Polygon(this.Vertices);

@@ -9,9 +9,6 @@ using Microsoft.Xna.Framework;
 using SFML.Graphics;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Framework.Blocks
 {
@@ -37,7 +34,7 @@ namespace Framework.Blocks
             this.updateVerts();
 
             this.Color = Color.Yellow;
-            this.Id = 4;
+            this.Id = 3;
             this.IsActive = true;
             this.IsDrawn = true;
             this.IsCollidable = false;

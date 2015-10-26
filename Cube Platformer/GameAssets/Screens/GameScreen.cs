@@ -162,7 +162,8 @@ namespace GameAssets.Screens
         {
             this.ChildScreens = new List<Screen>();
 
-            this.winScreen = new MenuScreen(this, this.contentManager, "Level Won", new Vector2i(0, 0), true, true, false);
+            this.winScreen = new MenuScreen(this, this.contentManager, "Level Won", new Vector2i(0, 0), true, true, false, true, Color.White);
+            winScreen.Title.Color = Color.Black;
             winScreen.addButtons(new string[] { "Next Level",  "Restart",  "Quit"});
             winScreen.IsDrawn = false;
             winScreen.IsUpdated = false;
@@ -171,7 +172,8 @@ namespace GameAssets.Screens
             winScreen.MouseClick += menuScreen_MouseClick;
             ChildScreens.Add(winScreen);
 
-            this.pauseScreen = new MenuScreen(this, this.contentManager, "Game Paused", new Vector2i(0, 0), true, true, false);
+            this.pauseScreen = new MenuScreen(this, this.contentManager, "Game Paused", new Vector2i(0, 0), true, true, false, true, Color.White);
+            pauseScreen.Title.Color = Color.Black;
             pauseScreen.addButtons(new string[] {  "Continue",  "Restart",  "Quit" });
             pauseScreen.IsDrawn = false;
             pauseScreen.IsUpdated = false;

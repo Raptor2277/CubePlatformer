@@ -11,12 +11,20 @@ using FarseerPhysics.Common;
 
 namespace Framework.Abstract
 {
+    /// <summary>
+    /// Base class for any physical object in the game
+    /// </summary>
     abstract class Entity
     {
+        protected Rectangle positionBox;
         /// <summary>
         /// PositionBox in pixel coords
         /// </summary>
-        public Rectangle PositionBox { get; protected set; }
+        public virtual Rectangle PositionBox
+        {
+            get { return positionBox; }
+            protected set { this.positionBox = value; }
+        }
 
         /// <summary>
         /// Starting position in pixel coords
@@ -91,15 +99,6 @@ namespace Framework.Abstract
             Body.GetTransform(out t);
             foreach (Vector2 vertex in Shape.Vertices)
                 Vertices.Add(VectorMath.multiply(MathUtils.Mul(ref t, vertex), this.Ppm));
-        }
-
-        /// <summary>
-        /// The positionBox in pixel coords
-        /// </summary>
-        /// <returns></returns>
-        public virtual Rectangle getPositionBox()
-        {
-            return this.PositionBox;
         }
     }
 }

@@ -1,15 +1,12 @@
 ﻿using SFML.Audio;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Framework.Audio
 {
+
     class MusicPlayer
     {
-        private Dictionary<String, Music> music;
+        private Dictionary<string, Music> music;
         public Music currentMusic;
 
         public MusicPlayer()

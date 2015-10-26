@@ -120,7 +120,7 @@ namespace Framework.LevelEditor
                         Entity remove = null;
                         foreach (Entity entity in contentManager.Entities)
                         {
-                            //if (Utils.checkMouseCollision(e.X, e.Y, e.InitialPosition))
+                            if (Utils.checkMouseCollision(e.X, e.Y, entity.PositionBox))
                                 remove = entity;
                         }
 

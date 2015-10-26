@@ -64,6 +64,7 @@ namespace Framework.Abstract
             this.buttons = new List<MenuButton>();
 
             this.Title = new Text(title, TitleFont, TitleSize);
+            Title.Origin = new Vector2f(Title.GetLocalBounds().Left, Title.GetLocalBounds().Top);
             this.bounds = new Rectangle(pos.X, pos.Y, 0,0);
 
             this.isBordered = bordered;
@@ -94,8 +95,8 @@ namespace Framework.Abstract
 
         public override void draw(Utilities.GameTime time, SFML.Graphics.RenderWindow window)
         {
-            if (isBordered)
-                Draw.drawRectangle(window, bounds, Color.Black);
+            if (hasBackground)
+                Draw.fillRectangle(window, bounds, BackGroudColor);
             window.Draw(Title);
             foreach (MenuButton b in buttons)
                 b.draw(window);
@@ -182,7 +183,7 @@ namespace Framework.Abstract
 
             //setting the position of the title and buttons based on the possition of the menu
             float height = bounds.y;
-            setTitlePosition(new Vector2f(bounds.x + bounds.width / 2 - Title.GetGlobalBounds().Width / 2, this.bounds.y + offset));
+            Title.Position =  new Vector2f(bounds.x + bounds.width / 2 - Title.GetGlobalBounds().Width / 2, this.bounds.y + offset);
             height += 2 * offset + Title.GetGlobalBounds().Height;
 
             foreach (MenuButton b in buttons)
@@ -190,16 +191,6 @@ namespace Framework.Abstract
                 b.setPosition(new Vector2f(bounds.x + bounds.width / 2 - b.getWidth() / 2, height));
                 height += offset + b.getHeight();
             }
-        }
-
-        private void setTitlePosition(Vector2f pos)
-        {
-            Title.Position = pos;
-
-            float buggedY = Title.GetLocalBounds().Top;
-            float buggedX = Title.GetLocalBounds().Left;
-
-            Title.Position = new Vector2f(pos.X - buggedX, pos.Y - buggedY);
         }
 
         private void onButtonClick(int index)

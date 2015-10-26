@@ -10,15 +10,23 @@ using Microsoft.Xna.Framework;
 using SFML.Graphics;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Framework.Blocks
 {
+
+    /// <summary>
+    /// Tile that the player must reach to beat the level
+    /// </summary>
     class ExitTile : Framework.Abstract.Block , IBlocksLight
     {
+        /// <summary>
+        /// Color of the tile
+        /// </summary>
         private Color Color { get; set; }
+
+        /// <summary>
+        /// Texture for the tile
+        /// </summary>
         public Texture Texture { get; private set; }
 
         public ExitTile(ContentManager c, float x, float y, float width, float height)
@@ -44,7 +52,14 @@ namespace Framework.Blocks
             this.Id = 2;
         }
 
-        bool Body_OnCollision(Fixture fixtureA, Fixture fixtureB, FarseerPhysics.Dynamics.Contacts.Contact contact)
+        /// <summary>
+        /// Detects the collision with the player and calls the content manager
+        /// </summary>
+        /// <param name="fixtureA"></param>
+        /// <param name="fixtureB"></param>
+        /// <param name="contact"></param>
+        /// <returns></returns>
+        private bool Body_OnCollision(Fixture fixtureA, Fixture fixtureB, FarseerPhysics.Dynamics.Contacts.Contact contact)
         {
             if (ContentManager.isPlayer(fixtureB.Body.BodyId))
                 ContentManager.onLevelWon();
@@ -62,7 +77,10 @@ namespace Framework.Blocks
             updateVerts();
         }
 
-
+        /// <summary>
+        /// Returns verticies to calculate shadows
+        /// </summary>
+        /// <returns></returns>
         public Polygon getLightPolygon()
         {
             return new Polygon(this.Vertices);

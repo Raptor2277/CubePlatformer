@@ -43,6 +43,7 @@ namespace Framework.Blocks
         public override void draw(GameTime time, RenderWindow window)
         {
             Draw.fillPolygon(window, Vertices, Color);
+            Draw.drawPolygon(window, Vertices, Color.Black);
         }
 
         public override void update(GameTime time)

@@ -47,6 +47,9 @@ namespace Framework.Utilities
                 case 2:
                     c.add(new ExitTile(c, info[0], info[1], info[2], info[3]));
                     break;
+                case 3:
+                    c.add(new Tip(c, info[0], info[1], info[2], info[3]));
+                    break;
             }
         }
 
@@ -64,7 +67,7 @@ namespace Framework.Utilities
                 at.InnerText = e.Id.ToString();
                 block.Attributes.Append(at);
 
-                Rectangle pos = e.getPositionBox();
+                Rectangle pos = e.PositionBox;
 
                 at = writer.CreateAttribute("x");
                 at.InnerText = pos.x.ToString();

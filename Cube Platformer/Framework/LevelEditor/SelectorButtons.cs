@@ -46,6 +46,7 @@ namespace Framework.LevelEditor
             this.text = new Text(name, Game1.plainFont);
             text.Color = Color.Black;
             text.CharacterSize = 24;
+            text.Origin = new Vector2f(text.GetLocalBounds().Left, text.GetLocalBounds().Top);
             setTextPosition();
 
             this.outlineLight = new Color(255, 255, 255, 0);
@@ -91,10 +92,8 @@ namespace Framework.LevelEditor
 
         private void setTextPosition()
         {
-            float offsetX = (this.positionBox.width - text.GetGlobalBounds().Width) / 2;
-            Vector2f pos = new Vector2f(positionBox.x + offsetX - text.GetLocalBounds().Left, positionBox.y - text.GetLocalBounds().Top);
-            
-            text.Position = pos;
+            float offsetX = (this.positionBox.width - text.GetGlobalBounds().Width) / 2;         
+            text.Position = new Vector2f(positionBox.x + offsetX, positionBox.y);
         }
 
         private void updateBlockParamers()

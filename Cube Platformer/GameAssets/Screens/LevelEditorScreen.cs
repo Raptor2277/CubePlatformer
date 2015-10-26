@@ -70,7 +70,8 @@ namespace GameAssets.Screens
 
         public void loadMenus()
         {
-            this.pauseMenu = new MenuScreen(this, this.contentManager, "Settings", new Vector2i(0, 0), true, true, false);
+            this.pauseMenu = new MenuScreen(this, this.contentManager, "Settings", new Vector2i(0, 0), true, true, false, true, Color.White);
+            pauseMenu.Title.Color = Color.Black;
             pauseMenu.addButtons(new string[] { "Continue", "New Level", "Load Level", "Save Level", "Exit" });
             pauseMenu.IsDrawn = false;
             pauseMenu.IsUpdated = false;

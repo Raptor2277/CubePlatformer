@@ -135,3 +135,5 @@ E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfml
 E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfmlnet-system-2.dll
 E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\sfmlnet-window-2.dll
 E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\obj\x64\Debug\Cube Platformer.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\levels\level3.xml
+E:\Visual Studio 2013\Projects\CubePlatformer\Cube Platformer\bin\x64\Debug\Content\levels\level4.xml
